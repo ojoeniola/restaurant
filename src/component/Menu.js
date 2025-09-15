@@ -4,14 +4,13 @@ function Menu() {
   return (
     <div>
       <div className="text-center py-12">
-        <h2 className="text-3xl font-bold mb-4">Menu</h2>
-        <p className="text-lg text-black mx-16">
+        <h2 className="text-3xl font-bold mb-4 text-brand">Menu</h2>
+        <p className="text-base text-gray-700 max-w-2xl mx-auto leading-loose">
           Discover our carefully curated selection of traditional Nigerian
           dishes, each prepared with authentic ingredients and time-honored
           techniques.
         </p>
       </div>
-    
       <div className="space-y-6">
         <div className="flex justify-between items-start border border-gray-200 rounded-lg p-6 bg-white shadow-sm hover:shadow-md transition">
           <div className="flex-1">
